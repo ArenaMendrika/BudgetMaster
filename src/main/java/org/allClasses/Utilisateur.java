@@ -69,6 +69,8 @@ public class Utilisateur {
     }
 
     public double obtenirBudgetRestant() {
-
+        return budgetMensuel - obtenirDepenseTotalCeMois();
     }
+
+    public
 }
